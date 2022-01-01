@@ -2,7 +2,6 @@
 
 int main()
 {
-    //char Command[20] = "command:3";
     char Command[20] = "foo,4,3";
     //char Keyword[20];
     char *Keyword;
@@ -14,6 +13,5 @@ int main()
     printf("Context,count:%d,%d",Context, count);
 
     getchar();
-//    putchar("\n");  
     return 0;
 }
